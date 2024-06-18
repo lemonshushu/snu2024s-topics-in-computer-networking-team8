@@ -1,0 +1,7 @@
+scapy
+scikit-learn
+pandas
+numpy
+matplotlib
+tensorflow[and-cuda]
+selenium
