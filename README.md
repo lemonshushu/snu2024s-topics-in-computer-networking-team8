@@ -74,14 +74,14 @@ $ python cross_test.py # http2, 3 cross-testing
 
 - `3-model-training/` : 모델 훈련에 사용한 코드가 포함된 디렉토리. DF 논문의 오픈소스 코드, 즉[^2]을 거의 그대로 사용하였음. 다만 기존 코드가 python 2, tensorflow 1을 사용하고 있어서, 버전만 python 3, tensorflow 2로 refactor함 
 
-  - `dataset/` : ` 2-preprocessing/refactor_preprocessed.py` 의 출력으로 나온 dataset들을 포함하는 디렉토리. `http2/`, `http3/` 이렇게 두 subdirectory를 가지며 각각에 대한 알맞은 dataset을 포함하고 있어야 함
+  - `dataset/` : ` 2-preprocessing/refactor_preprocessed.py` 의 출력으로 나온 dataset들을 포함하는 디렉토리. `http2/`, `http3/` 이렇게 두 subdirectory를 가지며 각각에 대한 알맞은 dataset을 포함하고 있어야 함. 실제 우리가 수집하여 훈련에 사용한 dataset은 크기가 커서 [MMLAB synology의 이 링크](https://snu-cse-mmlab.synology.me/drive/d/f/yvqsEl5ZZ93nHKV5gqKOLPRYGmQXpp3W)에 공유함
   - `src/` : 훈련에 사용되는 코드를 포함하는 디렉토리
     - `ClosedWorld_DF_NoDef.py` : 모델 훈련을 실행하는 코드. `python ClosedWorld_DF_NoDef.py`와 같이 실행하면 됨
       - `Model_NoDef.py`, `utility.py` : `ClosedWorld_DF_NoDef.py`에 의해 사용되는 모듈들이며 직접 실행할 필요는 없음
 
     -  `cross_test.py` : http2, http3 model들과 test dataset들을 cross-test하는 스크립트
 
-  - `saved_trained_models/` : `ClosedWorld_DF_NoDef.py`의 훈련 결과로 나온 두 모델들이 저장되는 디렉토리
+  - `saved_trained_models/` : `ClosedWorld_DF_NoDef.py`의 훈련 결과로 나온 두 모델들이 저장되는 디렉토리. 실제 우리의 실험 결과로 나온 모델들은 크기가 커서 [MMLAB synology의 이 링크](https://snu-cse-mmlab.synology.me/drive/d/f/yvqs5G5uf2h07sWJwtsnt2iXPiEVGKVP)에 공유함
   - `results/` : http2, http3 model test result와 cross test result가 저장되는 디렉토리
     - `plot_results.ipynb` : 모델 훈련 과정 및 테스트, cross-test 결과의 accuracy/loss를 가지고 그래프를 그리는 코드
 
