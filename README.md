@@ -10,6 +10,7 @@ Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. Deep Fingerp
 ## 실행 방법
 ### Prerequisites
 - Docker
+- tcpdump
 - Python packages in [requirements.txt](requirements.txt) should be pre-installed
 
 ### 1. Data collection
