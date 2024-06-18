@@ -4,17 +4,7 @@
 - 주제 : Tor website fingerprinting defense using HTTP/3 (QUIC)
 
 ## References
-
-[^1]: Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. Deep Fingerprinting: Undermining Website Fingerprinting Defenses with Deep Learning. In 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS ’18), October 15–19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/3243734.3243768
-[^2]: [deep-fingerprinting/df: The source code and dataset are used to demonstrate the DF model, and reproduce the results of the ACM CCS2018 paper](https://github.com/deep-fingerprinting/df)
-[^3]: [wisepythagoras/website-fingerprinting: Deanonymizing Tor or VPN users with website fingerprinting and machine learning.](https://github.com/wisepythagoras/website-fingerprinting)
-<!-- 
-\[1\] Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. Deep Fingerprinting: Undermining Website Fingerprinting Defenses with Deep Learning. In 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS ’18), October 15–19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/3243734.3243768
-
-- Code : [deep-fingerprinting/df: The source code and dataset are used to demonstrate the DF model, and reproduce the results of the ACM CCS2018 paper](https://github.com/deep-fingerprinting/df)
-
-\[2] [wisepythagoras/website-fingerprinting: Deanonymizing Tor or VPN users with website fingerprinting and machine learning.](https://github.com/wisepythagoras/website-fingerprinting) -->
-
+Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. Deep Fingerprinting: Undermining Website Fingerprinting Defenses with Deep Learning. In 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS ’18), October 15–19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/3243734.3243768
 ## 파일 및 디렉토리 설명
 
 - `data-collection/` : 데이터 수집에 사용한 코드가 포함된 디렉토리. [^3]의 코드를 기반으로 하여 많이 수정하였음
